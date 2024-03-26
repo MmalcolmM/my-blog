@@ -1,0 +1,21 @@
+
+:root {
+    --dark-background-color: black;
+    --dark-text-color: pink;
+    --light-background-color: lightblue;
+    --light-text-color: black;
+  }
+  
+  body {
+    background-color: var(--light-background-color);
+    color: var(--light-text-color);
+  }
+  body.dark-theme {
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
+  }
+  
+  body.light-theme {
+    background-color: var(--light-background-color);
+    color: var(--light-text-color);
+  }

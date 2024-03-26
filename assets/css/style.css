@@ -1,0 +1,82 @@
+:root {
+  --dark-background-color: black;
+  --dark-text-color: pink;
+  --light-background-color: lightblue;
+  --light-text-color: black;
+}
+
+body {
+  background-color: var(--light-background-color);
+  color: var(--light-text-color);
+}
+body.dark-theme {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+
+body.light-theme {
+  background-color: var(--light-background-color);
+  color: var(--light-text-color);
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.left-half,
+.right-half {
+  flex: 1;
+}
+.hline {
+  border: 6px double pink;
+  
+}
+.vline {
+  border-left: 6px double pink;
+  height: 100vh;
+}
+
+.right-half input {
+  width: 500px;
+}
+
+#blog-image {
+  
+}
+
+#blog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Center the content horizontally */
+  min-height: 100vh;
+  width: 100%;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+}
