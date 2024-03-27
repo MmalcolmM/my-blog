@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <button id="change-color-btn">Change Color</button>
+    <button id="change-color-btn">Hit it</button>
+    <button onclick="nextPage()">The posts</button>
     <main>
         <div class="container">
         </div>
@@ -31,15 +32,15 @@
                     <form id="myForm">
                         <label>
                             Username
-                            <input name="submitted-username" autocomplete="username" id="user-name" />
+                            <input name="submitted-username" autocomplete="username" id="user-name" placeholder="Required" />
                         </label>
                         <label>
                             Title
-                            <input type="text" name="submitted-title" autocomplete="title" id="title" />
+                            <input type="text" name="submitted-title" autocomplete="title" id="title" placeholder="Required"/>
                         </label>
                         <label>
                             Content
-                            <input type="text" name="submitted-content" autocomplete="content" id="content" />
+                           <input type="text" name="submitted-content" autocomplete="content" id="content"  placeholder="Required"/>
                         </label> <button id="submit">Submit</button>
                     </form>
                 </div>

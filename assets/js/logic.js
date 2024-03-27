@@ -21,6 +21,10 @@ if (savedTheme === 'dark') {
   document.body.classList.add('light-theme');
 }
 
+function nextPage() {
+  window.location.href ="blog.html";
+}
+
 // // // Display stored data on blog.html
 // // document.addEventListener('DOMContentLoaded', function() {
 // //   const storedData = JSON.parse(localStorage.getItem('blogPost'));

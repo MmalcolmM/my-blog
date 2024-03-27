@@ -80,3 +80,13 @@ input {
 label {
   margin-bottom: 20px;
 }
+#content {
+  height: 50vh;;
+  width:100% ;
+}
+::placeholder {
+  text-align: center;
+}
+input {
+  text-align: start;
+}

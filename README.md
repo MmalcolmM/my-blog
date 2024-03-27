@@ -1,6 +1,6 @@
 READ ME TEMPLATE 
 
-# My Blog
+# My Blog - 
 
 ## Description
 

@@ -11,7 +11,7 @@ const submitButton = document.querySelector('#submit');
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // prevent default form submission 
   if (usernameinput.value === " " || title.value === "" || content.value === ""){
-    alert('All fields must be completed, please try again.')
+    alert('You missed something. Go ahead and fix it')
   } else {
   let blogs = JSON.parse(localStorage.getItem('formData'))
   console.log(blogs);

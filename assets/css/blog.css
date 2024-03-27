@@ -19,3 +19,20 @@
     background-color: var(--light-background-color);
     color: var(--light-text-color);
   }
+  header {
+    text-align: center;
+  }
+  .hline {
+    border: 6px double pink;
+    
+  }
+  #change-color-btn{
+   display: flex;
+   justify-content: center;
+  }
+  #blogContainer{
+    border: double 2px var(--dark-text-color)
+  }
+  div { 
+    border: solid var(--light-background-color);
+  }
