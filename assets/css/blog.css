@@ -9,6 +9,8 @@
   body {
     background-color: var(--light-background-color);
     color: var(--light-text-color);
+    min-height: 100vh;
+    
   }
   body.dark-theme {
     background-color: var(--dark-background-color);
@@ -22,6 +24,9 @@
   header {
     text-align: center;
   }
+  #backBtn {
+    text-align: left;
+  }
   .hline {
     border: 6px double pink;
     
@@ -34,5 +39,16 @@
     border: double 2px var(--dark-text-color)
   }
   div { 
-    border: solid var(--light-background-color);
+    border: solid white;
+  }
+  footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    text-align: center;          
+    margin-top: 5vh;
+  }
+  footer a{
+    color: 
   }

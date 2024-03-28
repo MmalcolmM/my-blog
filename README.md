@@ -13,20 +13,14 @@ Install as you would normally clone a repo. For further instructions visit https
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Users can add their username, title and content to say whats on their mind. Hit that hit button for a color change, and if you want to view the posts without submitting a blog, you can thanks to https://github.com/cnm724
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+   
 ## Credits
 
+ ![picture of the blog](./assets/images/Screenshot%202024-03-27%20at%206.18.03 PM.png)
 
 
 ## License
 
 N/A
-
-e.
