@@ -11,7 +11,7 @@ form.addEventListener('submit', function(event) {
 
     // Check if any of the form fields are empty
     if (usernameinput.value === "" || title.value === "" || content.value === "") {
-        alert('You missed something. Go ahead and fix it');
+        alert('You missed something. Go ahead and fix it.');
     } else {
         // Retrieve existing blog data from localStorage
         let blogs = JSON.parse(localStorage.getItem('formData'));
