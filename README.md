@@ -19,6 +19,7 @@ Users can add their username, title and content to say whats on their mind. Hit 
 ## Credits
 
  ![picture of the blog](./assets/images/Screenshot%202024-03-27%20at%206.18.03 PM.png)
+ visit the live site here: https://mmalcolmm.github.io/my-blog/
 
 
 ## License
